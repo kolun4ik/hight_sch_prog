@@ -15,10 +15,3 @@ def factorial(num):
             "The given value must be positive integer, not %s"%(
                 type(num) if type(num) != int
                 else "negative"))
-
-
-if __name__ == '__main__':
-
-    print(squirrel(100))
-    print(squirrel(2))
-    print(squirrel(1))
