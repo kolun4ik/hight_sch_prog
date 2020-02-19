@@ -13,5 +13,5 @@ def squirrel(N):
                 "The given value must be positive integer, not %s" % (
                     type(num) if type(num) != int
                     else "negative"))
-    return str(factorial(N))[0]
+    return int(str(factorial(N))[0])
 
